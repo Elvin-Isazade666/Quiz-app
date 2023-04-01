@@ -1,0 +1,32 @@
+.edit-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.edit-wrapper form{
+    width: 500px;
+}
+.question_wrapper_input input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+}
+.edit-wrapper h1{
+    margin-bottom: 10px;
+}
+.edit-button-each{
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 14px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

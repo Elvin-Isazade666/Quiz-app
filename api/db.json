@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "Azerbaycanin paytaxti hansidir???aaa",
+      "options": [
+        {
+          "value": "Baki"
+        },
+        {
+          "value": "Gence"
+        },
+        {
+          "value": "Sumqayit"
+        }
+      ],
+      "answerOption": "Bakiaaa",
+      "time": "12",
+      "score": "1",
+      "id": 1
+    },
+    {
+      "text": "En guclu kamanda hansidir?",
+      "options": [
+        {
+          "value": "Celsi"
+        },
+        {
+          "value": "Arsenal"
+        },
+        {
+          "value": "Manchester CityElbetteki"
+        }
+      ],
+      "answerOption": "Manchester CityElbetteki",
+      "time": "10",
+      "score": "1",
+      "id": 2
+    },
+    {
+      "text": "Elvinin adi nedir?",
+      "options": [
+        {
+          "value": "Elvin"
+        },
+        {
+          "value": "Anar"
+        },
+        {
+          "value": "Cavid"
+        }
+      ],
+      "answerOption": "Elvina",
+      "time": "10",
+      "score": "1",
+      "id": 3
+    }
+  ]
+}

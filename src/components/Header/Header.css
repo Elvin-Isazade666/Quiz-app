@@ -1,0 +1,17 @@
+.header{
+    height: 76px;
+    border-bottom: 1px solid black;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+.header_wrapper{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+.header_link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}

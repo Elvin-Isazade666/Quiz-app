@@ -1,0 +1,101 @@
+.container {
+    padding: 60px;
+}
+.create_table{
+    text-decoration: none;
+}
+
+
+.center_text {
+    text-align: center;
+}
+
+.table_wrapper {
+    width: 100%;
+    background-color: #fff;
+}
+
+.center_text_wrapper {
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+
+.edit {
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+.delete {
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+.button-delete{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button-delete:hover{
+    color: red;
+}
+.button-edit{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button-edit:hover{
+    color: blue;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+.page-item{
+    cursor: pointer;
+    margin-left: 12px;
+    border: 1px solid dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+}
+.page-link{
+    padding: 11px;
+    display: inline-block;
+}
+.active{
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+}
+.no-question{
+    color: #fff;
+    text-align: center;
+    margin-top: 44px;
+}

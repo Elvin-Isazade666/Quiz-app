@@ -1,0 +1,80 @@
+.race-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.race-wrapper .third{
+    color: #fff;
+    margin-bottom: 23px;
+    font-size: 27px;
+}
+.question-wrapper{
+    width: 86%;
+    background-color: honeydew;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    height: 390px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 7px;
+}
+.question-wrapper .time-wrapper{
+    font-size: 20px;
+}
+.question-content{
+    display: flex;
+    gap: 14px;
+}
+.question-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: deepskyblue;
+    padding: 10px 72px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.question-bottom .next-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: deepskyblue;
+    padding: 10px 21px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.result-wrapper{
+    padding: 50px;
+}
+.result-wrapper tr{
+    background-color: transparent;
+    color: #fff;
+}
+.last-result-header{
+    color: #fff;
+}
+.back-home{
+    display: flex;
+    justify-content: flex-end;
+}
+.back-home-link{
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 11px;
+    border-radius: 7px;
+}
+.correct{
+    background-color: green;
+    color: #fff;
+}
+.false{
+    background-color: red;
+}
